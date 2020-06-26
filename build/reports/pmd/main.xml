@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.24.0" timestamp="2020-06-24T03:57:14.542">
+<file name="/home/luis/Documents/DIO_Java/primeiro_projeto/caracteristicas-da-linguagem/src/main/java/ifs/If.java">
+<violation beginline="3" endline="17" begincolumn="17" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="ifs" class="If" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="17" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Code Style" package="ifs" class="If" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like If
+</violation>
+<violation beginline="3" endline="17" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" package="ifs" class="If" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="4" endline="4" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="ifs" class="If" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="4" endline="16" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Documentation" package="ifs" class="If" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ifs" class="If" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="10" endline="10" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="ifs" class="If" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="ifs" class="If" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/home/luis/Documents/DIO_Java/primeiro_projeto/caracteristicas-da-linguagem/src/main/java/orientacaoobjeto/Carro.java">
+<violation beginline="3" endline="32" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" package="orientacaoobjeto" class="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="23" rule="CommentRequired" ruleset="Documentation" package="orientacaoobjeto" class="Carro" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="5" endline="5" begincolumn="13" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="orientacaoobjeto" class="Carro" variable="limite" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="5" endline="5" begincolumn="13" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="orientacaoobjeto" class="Carro" variable="limite" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="23" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Carro" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the limite field if you want a default access modifier
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="23" rule="DefaultPackage" ruleset="Code Style" package="orientacaoobjeto" class="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="6" endline="6" begincolumn="5" endcolumn="19" rule="CommentRequired" ruleset="Documentation" package="orientacaoobjeto" class="Carro" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="6" endline="6" begincolumn="12" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="orientacaoobjeto" class="Carro" variable="pessoas" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="12" endcolumn="18" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="orientacaoobjeto" class="Carro" variable="pessoas" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="6" endline="6" begincolumn="5" endcolumn="19" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Carro" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the pessoas field if you want a default access modifier
+</violation>
+<violation beginline="6" endline="6" begincolumn="5" endcolumn="19" rule="DefaultPackage" ruleset="Code Style" package="orientacaoobjeto" class="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="8" endline="8" begincolumn="5" endcolumn="13" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="orientacaoobjeto" class="Carro" method="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="8" endline="8" begincolumn="5" endcolumn="13" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Carro constructor if you want a default access modifier
+</violation>
+<violation beginline="10" endline="10" begincolumn="11" endcolumn="24" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="Carro" variable="limite" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'limite' is not assigned and could be declared final
+</violation>
+<violation beginline="10" endline="12" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Carro constructor if you want a default access modifier
+</violation>
+<violation beginline="14" endline="14" begincolumn="17" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="entrar" variable="pessoa" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pessoa' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="21" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="entrar" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the entrar method if you want a default access modifier
+</violation>
+<violation beginline="14" endline="21" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="orientacaoobjeto" class="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="15" endline="15" begincolumn="14" endcolumn="38" rule="LawOfDemeter" ruleset="Design" package="orientacaoobjeto" class="Carro" method="entrar" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="17" endline="17" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="orientacaoobjeto" class="Carro" method="entrar" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="19" endline="19" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="orientacaoobjeto" class="Carro" method="entrar" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="23" endline="23" begincolumn="15" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="sair" variable="pessoa" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'pessoa' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="31" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Carro" method="sair" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the sair method if you want a default access modifier
+</violation>
+<violation beginline="23" endline="31" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="orientacaoobjeto" class="Carro" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="24" endline="24" begincolumn="12" endcolumn="36" rule="LawOfDemeter" ruleset="Design" package="orientacaoobjeto" class="Carro" method="sair" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="orientacaoobjeto" class="Carro" method="sair" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="29" endline="29" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="orientacaoobjeto" class="Carro" method="sair" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/home/luis/Documents/DIO_Java/primeiro_projeto/caracteristicas-da-linguagem/src/main/java/orientacaoobjeto/Exemplo.java">
+<violation beginline="3" endline="19" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="orientacaoobjeto" class="Exemplo" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="3" endline="19" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" package="orientacaoobjeto" class="Exemplo" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="5" endline="5" begincolumn="22" endcolumn="34" rule="UseVarargs" ruleset="Best Practices" package="orientacaoobjeto" class="Exemplo" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="5" endline="5" begincolumn="22" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="orientacaoobjeto" class="Exemplo" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="5" endline="18" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="orientacaoobjeto" class="Exemplo" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the main method if you want a default access modifier
+</violation>
+<violation beginline="5" endline="18" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="orientacaoobjeto" class="Exemplo" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="6" endline="6" begincolumn="9" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="orientacaoobjeto" class="Exemplo" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.24.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'onix' could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
