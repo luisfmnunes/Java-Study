@@ -2,6 +2,7 @@ package queue;
 
 //Implementação via LinkedList
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -35,6 +36,19 @@ public class ExemploQueue {
         System.out.println(primeiroClienteOuErro);
 
         System.out.println(filaBanco);
+
+        for(String cliente: filaBanco){
+            System.out.println("--> "+cliente);
+        }
+
+        //Percorrendo a Fila por iterator
+        Iterator<String> iteratorFilaBanco = filaBanco.iterator();
+
+        while( iteratorFilaBanco.hasNext() ) {
+            System.out.println("---> " + iteratorFilaBanco.next());
+        }
+
+        System.out.println(filaBanco.size());
 
     }
 }
