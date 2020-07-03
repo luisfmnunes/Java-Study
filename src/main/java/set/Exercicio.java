@@ -15,7 +15,7 @@ public class Exercicio {
         conjunto.add(88);
         conjunto.add(20);
         conjunto.add(44);
-        conjunto.add(3); //duplicado
+        conjunto.add(3); //duplicado, será ignorado
 
         System.out.println(conjunto);
 
