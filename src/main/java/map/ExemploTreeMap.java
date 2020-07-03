@@ -55,6 +55,5 @@ public class ExemploTreeMap {
         for(Map.Entry<String,String> capital: treeCapitais.entrySet()){
             System.out.println("ForEach EntrySet: " + capital.getKey() + " -> " + capital.getValue());
         }
-
     }
 }
